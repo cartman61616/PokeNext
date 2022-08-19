@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ['assets.pokemon.com']
+  },
+  output: 'standalone'
 }
 
 module.exports = nextConfig
