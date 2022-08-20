@@ -25,7 +25,7 @@ jobs:
       with:
         project_id: ${{ secrets.CLOUD_RUN_PROJECT_NAME }}
         service_account_key: ${{ secrets.CLOUD_RUN_SERVICE_ACCOUNT }}
-        service_account_emai: ${{ secrets.CLOUD_RUN_SERVICE_ACCOUNT_EMAIL }}
+        service_account_email: ${{ secrets.CLOUD_RUN_SERVICE_ACCOUNT_EMAIL }}
 
     - name: Enable APIs and enable docker auth
       run: |-
